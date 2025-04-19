@@ -1,0 +1,45 @@
+# === Java ===
+*.class
+*.jar
+*.war
+*.ear
+
+# === Log files ===
+*.log
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === Build directories ===
+/bin/
+/build/
+/out/
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+
+# === Eclipse ===
+.project
+.classpath
+.settings/
+
+# === NetBeans ===
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# === Maven / Gradle ===
+target/
+*.swp
+.gradle/
+build/
+
+# === Other ===
+*.tmp
+*.bak
+*.swp
