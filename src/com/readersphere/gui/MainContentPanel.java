@@ -6,8 +6,8 @@ import java.awt.*;
 public class MainContentPanel extends JPanel {
     private CardLayout cardLayout;
 
-    public MainContentPanel() {
-        cardLayout = new CardLayout();
+    public MainContentPanel(CardLayout cardLayout) {
+        this.cardLayout = cardLayout;
 
         setLayout(cardLayout);
 
